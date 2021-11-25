@@ -1,0 +1,15 @@
+html 
+    head
+        title="Bienvenido al Pokeshop"
+    body
+        div
+            h1="Lista de Pokemones"
+            ul
+                each producto in productos 
+                    li
+                        div
+                            p=producto.title
+                            p=producto.price 
+                            img=producto.thumbnail
+
+
